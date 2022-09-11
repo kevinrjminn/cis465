@@ -1,0 +1,79 @@
+body{
+  background-color: #EAF6F6;
+  margin: 0;
+}
+
+hr{
+  background-color: black;
+  border-style: none;
+}
+
+.course_title{
+  text-align: center;
+  border: 3px solid green;
+}
+
+.CSU_Logo{
+  background: #EAF6F6;
+}
+
+@media (max-width: 768px)
+#mobile-header {
+    display: block!important;
+    opacity: 1;
+    width: auto!important;
+    padding: 15px!important;
+}
+
+.main-navigation, .main-navigation ul ul {
+    background-color: #fff;
+}
+
+.main-navigation.mobile-header-navigation {
+
+    float: none;
+    margin-bottom: 0;
+}
+
+.main-navigation{
+  z-index: 100;
+  clear:both;
+
+}
+
+body, button, input, select, textarea {
+    font-family: "Open Sans",sans-serif;
+    font-size: 16px;
+}
+
+
+
+body {
+    line-height: 1.5;
+}
+
+body, button, input, select, textarea {
+
+    font-weight: 400;
+    text-transform: none;
+
+}
+
+
+html {
+    -webkit-text-size-adjust: 100%;
+}
+
+
+  @media (max-width: 768px)
+  .mobile-header-logo .main-navigation.mobile-header-navigation .menu-toggle {
+      display: inline-block;
+      float: right;
+      clear: none;
+      width: auto;
+  }
+
+div.Assignment1Part1{
+  width: 700px;
+  height: 400px;
+}
