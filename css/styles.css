@@ -1,6 +1,6 @@
 body{
-  background-color: #EAF6F6;
-  margin: 0;
+  /* background-color: #EAF6F6; */
+  /* margin: 0; */
 }
 
 hr{
@@ -13,67 +13,47 @@ hr{
   border: 3px solid green;
 }
 
-.CSU_Logo{
-  background: #EAF6F6;
-}
-
-@media (max-width: 768px)
-#mobile-header {
-    display: block!important;
-    opacity: 1;
-    width: auto!important;
-    padding: 15px!important;
-}
-
-.main-navigation, .main-navigation ul ul {
-    background-color: #fff;
-}
-
-.main-navigation.mobile-header-navigation {
-
-    float: none;
-    margin-bottom: 0;
-}
-
-.main-navigation{
-  z-index: 100;
-  clear:both;
+.top-container{
+  padding-bottom: 0px;
+    margin-bottom: 0px;
+  filter: brightness(100%);
+  background:  #006747;
+  /* background: #EAF6F6; */
+  height: 200px;
 
 }
+/* .top-container img{ */
+  /* text-align: center; */
+  /* display: block; */
+  /* height: 100%; */
+/* } */
 
-body, button, input, select, textarea {
-    font-family: "Open Sans",sans-serif;
-    font-size: 16px;
+.top-container p{
+  padding-top: 0px;
+    margin-bottom: 0px;
+  /* font-size: 20px */
+  color: white;
+}
+
+.img-and-text{
+  font-size: 95%;
+  margin: auto;
+  text-align: center;
 }
 
 
 
-body {
-    line-height: 1.5;
-}
+.top-container img{
+  margin: auto;
+  display: block;
+  /* margin-left:auto;
+  margin-right:auto; */
+  /* width: 50%; */
+  height: 90%;
+ }
 
-body, button, input, select, textarea {
-
-    font-weight: 400;
-    text-transform: none;
-
-}
-
-
-html {
-    -webkit-text-size-adjust: 100%;
-}
-
-
-  @media (max-width: 768px)
-  .mobile-header-logo .main-navigation.mobile-header-navigation .menu-toggle {
-      display: inline-block;
-      float: right;
-      clear: none;
-      width: auto;
-  }
-
-div.Assignment1Part1{
-  width: 700px;
-  height: 400px;
+.middle-container img{
+  filter: brightness(50%);
+  height: 100%;
+  width: 100%;;
 }
